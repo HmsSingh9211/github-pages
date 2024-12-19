@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{height: 100vh;
+    width: 340px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(35px);
+}
+
+.mobile {
+    height: 625px;
+    width: 310px;
+   
+    
+}
+
+.arrange {
+    display: grid;
+    grid-template-columns: 79px 79px 79px 79px;
+    grid-template-rows: 63px 63px 63px 63px 63px;
+    width: 65vw ;
+    height: 50vh;
+    row-gap: -5px;
+   
+    transform: translateX(54px) translateY(-340px);
+}
+
+.imgclass {
+    width: 55px;
+    transition: width 0.3s ease-in-out; 
+}
+.anime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anim:hover .imgclass {
+    content: url( 'afteranime.png');
+    width: 50px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.imgclass:hover img{
+    
+} 
+    </style>
+</head>
+
+<body>
+    <header>Hello World</header>
+    <div class="text"></div>
+    <main>
+        <div class="main2">
+        <div class="mobile"><img src="calcwbtn.png" width="100%" /></div></div>
+        <div class="arrange">
+            <div id="btn1" class="bbtn1 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn2" class="bbtn2 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn3" class="bbtn3 anim"><img src="buttonforcalc.png"  class="imgclass"  /></div>
+            <div id="btn4" class="bbtn4 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn5" class="bbtn5 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn6" class="bbtn6 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn7" class="bbtn7 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn8" class="bbtn8 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn9" class="bbtn9 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn10" class="bbtn10 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn11" class="bbtn11 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn12" class="bbtn12 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn13" class="bbtn13 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn14" class="bbtn14 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn15" class="bbtn15 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn16" class="bbtn16 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn17" class="bbtn17 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn18" class="bbtn18 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn19" class="bbtn19 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+            <div id="btn20" class="bbtn20 anim"><img src="buttonforcalc.png" class="imgclass" /></div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="style.js"></script>
+</body>
+
+</html>
